@@ -12,7 +12,7 @@ export default defineConfig([
       semi: ["error", "always"],
       quotes: ["error", "double"],
       "no-var": "error",
-      "no-console": "warn"
-    }
+      "no-console": "warn",
+    },
   },
 ]);
