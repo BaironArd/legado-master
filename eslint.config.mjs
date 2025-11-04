@@ -3,16 +3,16 @@ import globals from "globals";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
-  {
-    files: ["**/*.{js,mjs,cjs}"],
-    plugins: { js },
-    extends: ["js/recommended"],
-    languageOptions: { globals: globals.browser },
-    rules: {
-      semi: ["error", "always"],
-      quotes: ["error", "double"],
-      "no-var": "error",
-      "no-console": "warn"
-    }
-  },
+    {
+        files: ["**/*.{js,mjs,cjs}"],
+        plugins: { js },
+        extends: ["js/recommended"],
+        languageOptions: { globals: globals.browser },
+        rules: {
+        semi: ["error", "always"],
+        quotes: ["error", "double"],
+        "no-var": "error",
+        "no-console": "warn"
+        }
+    },
 ]);
